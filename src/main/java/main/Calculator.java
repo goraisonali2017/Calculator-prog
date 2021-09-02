@@ -23,7 +23,7 @@ public class Calculator
  			System.out.println("\n Your second element :  ");
  			secondobj=Sc.nextDouble();
  			CalulationMethod object1 =new CalulationMethod(firstobj,secondobj);
-			System.out.println("\n\n\n\n Select Your Choice : [Enter 1 or 2 or 3 or 4]-->");
+			System.out.println("\n\n\n\n Select Your option : [Enter 1 or 2 or 3 or 4]-->");
 			ch=Sc.nextInt();
 			switch(ch)
 			{
